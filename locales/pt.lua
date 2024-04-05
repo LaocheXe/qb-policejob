@@ -25,8 +25,6 @@ local Translations = {
         have_evidence_bag = 'Precisas de ter um saco de provas vazio',
         no_driver_license = 'Sem licença de condução',
         not_cuffed_dead = 'O civil não está algemado ou morto',
-        fine_yourself = '???',
-        not_online = "???"
     },
     success = {
         uncuffed = 'Foste desalgemado',
@@ -83,7 +81,6 @@ local Translations = {
         amount = 'Montante',
         police_plate = 'LSPD', --Should only be 4 characters long
         vehicle_info = 'Motor: %{value} % | Combu: %{value2} %',
-        evidence_stash_prompt = 'Baú de Evidências',
         evidence_stash = 'Baú de Evidências | %{value}',
         slot = 'Slot no. (1,2,3)',
         current_evidence = '%{value} | Gaveta %{value2}',
@@ -113,9 +110,7 @@ local Translations = {
         target_location = 'A localização de %{firstname} %{lastname} foi marcada no teu mapa',
         anklet_location = 'Localização da Pulseira',
         new_call = 'Nova Chamada',
-        officer_down = 'Agente %{lastname} | %{callsign} Abatido',
-        fine_issued = '???',
-        received_fine = '???'
+        officer_down = 'Agente %{lastname} | %{callsign} Abatido'
     },
     evidence = {
         red_hands = 'Mãos vermelhas',
@@ -177,7 +172,6 @@ local Translations = {
         message_sent = 'Mensagem a ser enviada',
         civilian_call = 'Chamada Civil',
         emergency_call = 'Nova chamda 911',
-        fine = '???'
     },
     progressbar = {
         blood_clear = 'A limpar sangue..',

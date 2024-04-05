@@ -25,8 +25,6 @@ local Translations = {
         have_evidence_bag = 'Devi avere una busta per le prove vuota con te',
         no_driver_license = 'Nessun licenza di guida',
         not_cuffed_dead = 'Il cittadino non è arrestato o morto',
-        fine_yourself = '???',
-        not_online = "???"
     },
     success = {
         uncuffed = 'Sei stato smanettato',
@@ -83,7 +81,6 @@ local Translations = {
         amount = 'Quantità',
         police_plate = 'LSPD', --Should only be 4 characters long
         vehicle_info = 'Motore: %{value} % | Carburante: %{value2} %',
-        evidence_stash_prompt = 'Magazzino Prove',
         evidence_stash = 'Magazzino Prove | %{value}',
         slot = 'Slot no. (1,2,3)',
         current_evidence = '%{value} | Cassetto %{value2}',
@@ -113,8 +110,6 @@ local Translations = {
         target_location = 'La posizione di ${firstname} ${lastname} è marcata sulla mappa',
         anklet_location = 'Posizione cavigliera',
         new_call = 'Nuova chiamata',
-        fine_issued = '???',
-        received_fine = '???'
     },
     evidence = {
         red_hands = 'Mani Rosse',
@@ -176,7 +171,6 @@ local Translations = {
         message_sent = 'Messaggio da inviare',
         civilian_call = 'Chiamata Cittadino',
         emergency_call = 'Nuova chiamata 911',
-        fine = '???'
     },
     progressbar = {
         blood_clear = 'Pulendo sangue...',

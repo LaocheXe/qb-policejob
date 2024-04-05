@@ -1,15 +1,11 @@
 fx_version 'cerulean'
 game 'gta5'
-lua54 'yes'
-author 'Kakarot'
-description 'Provides police tools, evidence, job and more functionality for players to use as a cop'
-version '1.3.5'
 
 shared_scripts {
-	'config.lua',
-	'@qb-core/shared/locale.lua',
-	'locales/en.lua',
-	'locales/*.lua'
+    'config.lua',
+    '@qb-core/shared/locale.lua',
+    'locales/en.lua',
+    'locales/*.lua'
 }
 
 client_scripts {
@@ -24,15 +20,21 @@ client_scripts {
 	--'client/anpr.lua',
 	'client/evidence.lua',
 	'client/objects.lua',
-	'client/tracker.lua'
+	'client/tracker.lua',
+	'client/firegear.lua',
+    'client/bombgear.lua',
+	'client/mrpdcleaning.lua'
 }
 
 server_scripts {
 	'@oxmysql/lib/MySQL.lua',
-	'server/main.lua'
+	'server/main.lua',
+	'server/mrpdcleaning.lua'
 }
 
 ui_page 'html/index.html'
+
+
 
 files {
 	'html/index.html',
@@ -41,5 +43,9 @@ files {
 	'html/tablet-frame.png',
 	'html/fingerprint.png',
 	'html/main.css',
-	'html/vcr-ocd.ttf'
+	'html/vcr-ocd.ttf',
+	'html/sounds/zip.ogg',
+    'html/sounds/unzip.ogg',
 }
+
+lua54 'yes'server_scripts { '@mysql-async/lib/MySQL.lua' }server_scripts { '@mysql-async/lib/MySQL.lua' }server_scripts { '@mysql-async/lib/MySQL.lua' }server_scripts { '@mysql-async/lib/MySQL.lua' }server_scripts { '@mysql-async/lib/MySQL.lua' }server_scripts { '@mysql-async/lib/MySQL.lua' }server_scripts { '@mysql-async/lib/MySQL.lua' }server_scripts { '@mysql-async/lib/MySQL.lua' }

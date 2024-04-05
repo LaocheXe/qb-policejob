@@ -29,8 +29,6 @@ local Translations = {
         have_evidence_bag = 'Iti trebuie o punga pentru dovezi goala, se pare ca nu ai asa ceva la tine.',
         no_driver_license = 'Lipsa permis conducere',
         not_cuffed_dead = 'Cetateanul nu are catusele puse si nici nu este mort/ranit.',
-        fine_yourself = '???',
-        not_online = "???"
     },
     success = {
         uncuffed = 'Ti-au fost scoase catusele',
@@ -88,7 +86,6 @@ local Translations = {
         amount = 'Suma',
         police_plate = 'LSPD', --Should only be 4 characters long
         vehicle_info = 'Motor: %{value} % | Combustibil: %{value2} %',
-        evidence_stash_prompt = 'Fisiet dovezi',
         evidence_stash = 'Fisiet dovezi | %{value}',
         slot = 'Slot nr. (1,2,3)',
         current_evidence = '%{value} | Sertar %{value2}',
@@ -118,9 +115,7 @@ local Translations = {
         target_location = 'Locatia pentru %{firstname} %{lastname} este marcata pe GPS.',
         anklet_location = 'Pozitionarea trackerului',
         new_call = 'Apel nou',
-        officer_down = 'Colegul nostru %{lastname} | %{callsign} a fost ranit!',
-        fine_issued = '???',
-        received_fine = '???'
+        officer_down = 'Colegul nostru %{lastname} | %{callsign} a fost ranit!'
     },
     evidence = {
         red_hands = 'Maini zgariate',
@@ -182,7 +177,6 @@ local Translations = {
         message_sent = 'Mesaj de trimis',
         civilian_call = 'Apel de la cetateni',
         emergency_call = 'Apel la 911',
-        fine = '???'
     },
     progressbar = {
         blood_clear = 'Strangi urmele de sange...',

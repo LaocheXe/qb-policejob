@@ -25,8 +25,6 @@ local Translations = {
         have_evidence_bag = 'Sinulla on oltava tyhjä todistuspussi mukanasi',
         no_driver_license = 'Ei ajokorttia',
         not_cuffed_dead = 'Siviili ei ole raudoitettu tai kuollut',
-        fine_yourself = '???',
-        not_online = "???"
     },
     success = {
         uncuffed = 'Olet nyt vapaa',
@@ -84,7 +82,6 @@ local Translations = {
         amount = 'Paljonko',
         police_plate = 'POLI', --Should only be 4 characters long
         vehicle_info = 'Moottori: %{value} % | Bensa: %{value2} %',
-        evidence_stash_prompt = 'Todisteet',
         evidence_stash = 'Todisteet | %{value}',
         slot = 'Kolikkopelin numero. (1,2,3)',
         current_evidence = '%{value} | Laatikko %{value2}',
@@ -114,9 +111,7 @@ local Translations = {
         target_location = 'Sijainti %{firstname} %{lastname} on nyt kartassasi',
         anklet_location = 'Nilkkapannan sijainti',
         new_call = 'Uusi Soitto',
-        officer_down = 'Virkamies %{lastname} | %{callsign} Kuoli',
-        fine_issued = '???',
-        received_fine = '???'
+        officer_down = 'Virkamies %{lastname} | %{callsign} Kuoli'
     },
     evidence = {
         red_hands = 'Punaiset kädet',
@@ -178,7 +173,6 @@ local Translations = {
         message_sent = 'Lähetettävä viesti',
         civilian_call = 'Siviilipuhelu',
         emergency_call = 'Uusi 112 hälytys',
-        fine = '???'
     },
     progressbar = {
         blood_clear = 'Veren puhdistaminen...',

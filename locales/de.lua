@@ -25,8 +25,6 @@ local Translations = {
         have_evidence_bag = 'Du brauchst einen Leeren-Beweisbeutel',
         no_driver_license = 'Keinen Führerschein',
         not_cuffed_dead = 'Person ist nicht gefesselt oder tot',
-        fine_yourself = '???',
-        not_online = "???"
     },
     success = {
         uncuffed = 'Du wurdest gefesselt',
@@ -84,7 +82,6 @@ local Translations = {
         amount = 'Betrag',
         police_plate = 'HCPD', --Should only be 4 characters long
         vehicle_info = 'Motor: %{value} % | Tank: %{value2} %',
-        evidence_stash_prompt = 'BeweisStash',
         evidence_stash = 'BeweisStash | %{value}',
         slot = 'Lade-Nr. (1,2,3)',
         current_evidence = '%{value} | Lade %{value2}',
@@ -114,9 +111,7 @@ local Translations = {
         target_location = 'Die Lage der %{firstname} %{lastname} ist auf Ihrer Karte markiert',
         anklet_location = 'Ort des Fußkettchens',
         new_call = 'Neuer Anruf',
-        officer_down = 'Polizist %{lastname} | %{callsign} am Boden',
-        fine_issued = '???',
-        received_fine = '???'
+        officer_down = 'Polizist %{lastname} | %{callsign} am Boden'
     },
     evidence = {
         red_hands = 'Blutige Hände',
@@ -178,7 +173,6 @@ local Translations = {
         message_sent = 'Nachricht',
         civilian_call = 'Zivilist in Not',
         emergency_call = 'Polizei NOTRUF',
-        fine = '???'
     },
     progressbar = {
         blood_clear = 'Blut entfernen...',

@@ -25,8 +25,6 @@ local Translations = {
         have_evidence_bag = 'You must have an empty evidence bag with you',
         no_driver_license = 'No drivers license',
         not_cuffed_dead = 'Civilian isn\'t cuffed or dead',
-        fine_yourself = 'You Cannot Fine Yourself',
-        not_online = 'This person is not online'
     },
     success = {
         uncuffed = 'You have been uncuffed',
@@ -43,7 +41,7 @@ local Translations = {
         vehicle_flagged = 'Vehicle %{plate} has been flagged for %{reason}',
         impound_vehicle_removed = 'Vehicle taken out of impound!',
         impounded = 'Vehicle impounded',
-    },
+ },
     info = {
         mr = 'Mr.',
         mrs = 'Mrs.',
@@ -84,7 +82,6 @@ local Translations = {
         amount = 'Amount',
         police_plate = 'LSPD', --Should only be 4 characters long
         vehicle_info = 'Engine: %{value} % | Fuel: %{value2} %',
-        evidence_stash_prompt = 'Evidence Stash',
         evidence_stash = 'Evidence Stash | %{value}',
         slot = 'Slot no. (1,2,3)',
         current_evidence = '%{value} | Drawer %{value2}',
@@ -115,10 +112,7 @@ local Translations = {
         anklet_location = 'Anklet location',
         new_call = 'New Call',
         officer_down = 'Officer %{lastname} | %{callsign} Down',
-        fine_issued = 'Fine has been issued to offender succesfully',
-        received_fine = 'State Debt Recovery has automatically recovered the fines owed...',
-        camera_speed= 'Speed camera #%{radarid} - Marked vehicle'
-
+        panic_button = 'Officer %{lastname} | %{callsign} Panic Button'
     },
     evidence = {
         red_hands = 'Red hands',
@@ -126,6 +120,7 @@ local Translations = {
         red_eyes = 'Red Eyes',
         weed_smell = 'Smells like weed',
         gunpowder = 'Gunpowder in clothing',
+        explosives = 'Explosives Residue on hands!',
         chemicals = 'smells chemical',
         heavy_breathing = 'Breathes heavily',
         sweat = 'Sweats a lot',
@@ -168,7 +163,7 @@ local Translations = {
         unflagplate = 'Unflag A Plate (Police Only)',
         plateinfo = 'Run A Plate (Police Only)',
         depot = 'Impound With Price (Police Only)',
-        impound = 'Impound A Vehicle (Police Only)',
+        impound = 'Impound A Vehicle',
         paytow = 'Pay Tow Driver (Police Only)',
         paylawyer = 'Pay Lawyer (Police, Judge Only)',
         anklet = 'Attach Tracking Anklet (Police Only)',
@@ -180,7 +175,6 @@ local Translations = {
         message_sent = 'Message to be sent',
         civilian_call = 'Civilian Call',
         emergency_call = 'New 911 Call',
-        fine = 'Fine A Person'
     },
     progressbar = {
         blood_clear = 'Clearing Blood...',
@@ -190,14 +184,6 @@ local Translations = {
         remove_object = 'Removing object..',
         impound = 'Impounding Vehicle..',
     },
-    target = {
-        sign_in = 'Sign In/Out service',
-        open_personal_stash = 'Open Personal Stash',
-        open_trash = 'Open Trash',
-        open_fingerprint = 'Open Fingerprint',
-        open_armory = 'Open Armory',
-        open_evidence_stash = 'Open Evidence Stash',
-    }
 }
 
 Lang = Lang or Locale:new({

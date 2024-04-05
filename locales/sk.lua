@@ -25,8 +25,6 @@ local Translations = {
         have_evidence_bag = 'Musíte mať so sebou prázdnu tašku s dôkazmi',
         no_driver_license = 'Žiaden vodičský preukaz',
         not_cuffed_dead = 'Civilista nie je spútaný a ani mŕtvy',
-        fine_yourself = '???',
-        not_online = "???"
     },
     success = {
         uncuffed = 'Boli ste zbavení pút',
@@ -83,7 +81,6 @@ local Translations = {
         amount = 'Čiastka',
         police_plate = 'PD', --Should only be 4 characters long
         vehicle_info = 'Motor: %{value} % | Palivo: %{value2} %',
-        evidence_stash_prompt = 'Úložisko pre Dôkazy',
         evidence_stash = 'Úložisko pre Dôkazy | %{value}',
         slot = 'Priestor č. (1,2,3)',
         current_evidence = '%{value} | Zásuvka %{value2}',
@@ -113,8 +110,6 @@ local Translations = {
         target_location = 'Lokácia osoby ${firstname} ${lastname} je vyznačená na mape',
         anklet_location = 'Lokácia sledovača',
         new_call = 'Nový hovor',
-        fine_issued = '???',
-        received_fine = '???'
     },
     evidence = {
         red_hands = 'Červené ruky',
@@ -176,7 +171,6 @@ local Translations = {
         message_sent = 'Správa na odoslanie',
         civilian_call = 'Hovor od civilistu',
         emergency_call = 'Nový 911 hovor',
-        fine = '???'
     },
     progressbar = {
         blood_clear = 'Čistíš krv...',

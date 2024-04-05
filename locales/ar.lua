@@ -25,8 +25,6 @@ local Translations = {
         have_evidence_bag = 'يجب أن يكون معك حقيبة أدلة فارغة',
         no_driver_license = 'بدون رخصة قيادة',
         not_cuffed_dead = 'الشخص ليس مكلبش أو ميت',
-        fine_yourself = '???',
-        not_online = "???"
     },
     success = {
         uncuffed = 'أنت لست مكلبش',
@@ -84,7 +82,6 @@ local Translations = {
         amount = 'السعر',
         police_plate = 'LSPD', --Should only be 4 characters long
         vehicle_info = 'المحرك: %{value} % | البنزين: %{value2} %',
-        evidence_stash_prompt = 'خزنة الأدلة',
         evidence_stash = 'خزنة الأدلة | %{value}',
         slot = '(1,2,3)',
         current_evidence = '%{value} | الدرج %{value2}',
@@ -114,9 +111,7 @@ local Translations = {
         target_location = '%{firstname} %{lastname} تم تسجيله في الخريطة',
         anklet_location = 'ﻊﺒﺘﺗ ﻝﺎﺨﻠﺧ',
         new_call = 'اتصال جديد',
-        officer_down = '%{lastname} | %{callsign} مات',
-        fine_issued = '???',
-        received_fine = '???'
+        officer_down = '%{lastname} | %{callsign} مات'
     },
     evidence = {
         red_hands = 'الأيدي حمراء',
@@ -178,7 +173,6 @@ local Translations = {
         message_sent = 'سيتم إرسال الرسالة',
         civilian_call = 'نداء مدني',
         emergency_call = '911 اتصال من',
-        fine = '???'
     },
     progressbar = {
         blood_clear = 'تطهير الدم',
